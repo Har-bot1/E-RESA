@@ -1,0 +1,80 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <Title>transtion site</Title>
+<style>
+#one{
+    width: 500px;
+    height: 500px;
+    background: rgb(103, 190, 103);
+    border: 5px solid rgb(106, 175, 2);
+    margin-bottom: 40px;
+    transition: transform 2s, background 1s;
+  
+
+}
+#one:hover {
+      transform: rotate(20deg) scale(0.5);
+      background: plum;
+}
+
+#two{
+    width: 150px;
+    height: 800px;
+    background: black;
+    border: 40px dashed red;
+    transition: transform 1s, background 1s;
+    margin-bottom: 40px;
+}
+#two:hover{
+    transform: rotateX(6000000deg); scale:(2);
+}
+
+#three{
+    width: 400px;
+    height: 400px;
+    background: red;
+    border: 4px solid gray;
+    transition: border-radius 1.5s, background 1.5s;
+    margin-bottom: 400px;
+}
+#three:hover{
+    background: pink;
+    border-radius: 100%;
+}
+#four{
+    width: 60px;
+    height:60px;
+    background:powderblue;
+    border: 2px solid lightblue;
+    transition: border-radius 2s, background 1s, border 0.5s;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+#four:hover{
+    transform: rotate(2000deg) scale(5);
+    margin-left: 200px;
+    margin-bottom: 200px;
+     border: 10px dashed rgb(255, 78, 166);
+     border-radius: 100%;
+}
+</style>
+</head>
+            
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+
+<p><a href="index.html">Go back</a></p>
+</body>
+
+
+</html>
+
+<!-- whatever I put here doesn't appear on the code-->
+ 
